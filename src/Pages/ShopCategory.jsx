@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ShopCategory = () => {
   return (
@@ -6,4 +6,4 @@ const ShopCategory = () => {
   )
 }
 
-export default ShopCategory
+export default ShopCategory;
