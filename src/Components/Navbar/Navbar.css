@@ -13,7 +13,7 @@
 
 .nav-logo p {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .navbar ul {
@@ -69,4 +69,54 @@ hr {
   font-size: 14px;
   background-color: red;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .nav-logo {
+    gap: 4px;
+  }
+
+  .nav-logo p {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .nav-logo img {
+    width: 48px;
+    height: 60px;
+  }
+
+  .navbar ul {
+    gap: 20px;
+    font-size: 15px;
+  }
+
+  .nav-login-cart {
+    gap: 6px;
+  }
+
+  .nav-login-cart button {
+    padding: 5px;
+    width: 60px;
+    font-size: 14px;
+  }
+
+  hr {
+    width: 28px;
+  }
+
+  .nav-cart-count {
+    width: 18px;
+    height: 18px;
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  .nav-login-cart img {
+    width: 30px;
+  }
 }
