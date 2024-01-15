@@ -57,3 +57,38 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-left {
+    gap: 10px;
+    padding-left: 40px;
+    line-height: 1;
+  }
+
+  .hero-left h2 {
+    font-size: 18px;
+  }
+
+  .hero-left p {
+    font-size: 40px;
+  }
+
+  .hero-hand-icon {
+    gap: 5px;
+  }
+
+  .hero-hand-icon img {
+    width: 55px;
+  }
+
+  .hero-latest-btn {
+    gap: 10px;
+    width: 220px;
+    height: 65px;
+    font-size: 18px;
+  }
+
+  .hero-right img{
+    width: 350px;
+  }
+}

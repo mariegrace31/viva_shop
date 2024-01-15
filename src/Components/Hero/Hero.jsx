@@ -18,12 +18,12 @@ const Hero = () => {
           <p>for everyone</p>
         </div>
         <div className="hero-latest-btn">
-          <p>Latest Collection</p>
+          <div>Latest Collection</div>
           <img src={arrow_icon} alt="arrow-icon" />
         </div>
       </div>
       <div className="hero-right">
-        <img src={hero_image} alt="hero-image" />
+        <img src={hero_image} alt="hero" />
       </div>
     </div>
   )
