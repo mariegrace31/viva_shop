@@ -37,4 +37,12 @@
   .item-price-old {
     font-size: 15px;
   }
+
+  .item {
+    width: 280px;
+  }
+
+  .item img {
+    width: 270px;
+  }
 }
