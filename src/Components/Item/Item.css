@@ -28,3 +28,13 @@
   transform: scale(1.05);
   transition: 0.6s;
 }
+
+@media screen and (max-width: 768px) {
+  .item-price-new {
+    font-size: 15px;
+  }
+
+  .item-price-old {
+    font-size: 15px;
+  }
+}
